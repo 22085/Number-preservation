@@ -1,5 +1,5 @@
 # 这个名字决定了你最终的 API 链接前缀，比如 https://esim-api.你的用户名.workers.dev
-name = "number-preservation"
+name = "esim-api"
 
 # 明确告诉 Cloudflare 我们后端代码的准确路径
 main = "worker/worker.js"
@@ -18,4 +18,4 @@ crons = ["0 2 * * *"]
 # 自动绑定 KV 数据库
 [[kv_namespaces]]
 binding = "esim_db"
-id = "EDBCF097BCF841EAB0546557D40627EA"
+id = "edbcf097bcf841eab0546557d40627ea"
